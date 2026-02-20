@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3099998C2F48705800DF64E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A3362F486735007A7B80 /* ContentView.swift */; };
+		3099998D2F48705800DF64E0 /* DocumentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A3372F486735007A7B80 /* DocumentManager.swift */; };
+		3099998E2F48705800DF64E0 /* FindReplaceBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A3382F486735007A7B80 /* FindReplaceBar.swift */; };
+		3099998F2F48705800DF64E0 /* NotepadTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A3392F486735007A7B80 /* NotepadTextView.swift */; };
+		309999902F48705800DF64E0 /* SimpleNotepadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1A33A2F486735007A7B80 /* SimpleNotepadApp.swift */; };
+		309999922F48741000DF64E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309999912F48741000DF64E0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		30E1A31A2F4866FE007A7B80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,28 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3099998B2F486FA300DF64E0 /* SimpleNotepad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = SimpleNotepad.entitlements; path = SimpleNotepad/SimpleNotepad.entitlements; sourceTree = "<group>"; };
+		309999912F48741000DF64E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30E1A3082F4866FC007A7B80 /* SimpleNotepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleNotepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E1A3192F4866FE007A7B80 /* SimpleNotepadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNotepadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E1A3232F4866FE007A7B80 /* SimpleNotepadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNotepadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E1A3362F486735007A7B80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30E1A3372F486735007A7B80 /* DocumentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentManager.swift; sourceTree = "<group>"; };
+		30E1A3382F486735007A7B80 /* FindReplaceBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindReplaceBar.swift; sourceTree = "<group>"; };
+		30E1A3392F486735007A7B80 /* NotepadTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotepadTextView.swift; sourceTree = "<group>"; };
+		30E1A33A2F486735007A7B80 /* SimpleNotepadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNotepadApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		30E1A30A2F4866FC007A7B80 /* SimpleNotepad */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleNotepad;
-			sourceTree = "<group>";
-		};
-		30E1A31C2F4866FE007A7B80 /* SimpleNotepadTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleNotepadTests;
-			sourceTree = "<group>";
-		};
-		30E1A3262F4866FE007A7B80 /* SimpleNotepadUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimpleNotepadUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30E1A3052F4866FC007A7B80 /* Frameworks */ = {
@@ -75,9 +73,13 @@
 		30E1A2FF2F4866FC007A7B80 = {
 			isa = PBXGroup;
 			children = (
-				30E1A30A2F4866FC007A7B80 /* SimpleNotepad */,
-				30E1A31C2F4866FE007A7B80 /* SimpleNotepadTests */,
-				30E1A3262F4866FE007A7B80 /* SimpleNotepadUITests */,
+				3099998B2F486FA300DF64E0 /* SimpleNotepad.entitlements */,
+				309999912F48741000DF64E0 /* Assets.xcassets */,
+				30E1A3362F486735007A7B80 /* ContentView.swift */,
+				30E1A3372F486735007A7B80 /* DocumentManager.swift */,
+				30E1A3382F486735007A7B80 /* FindReplaceBar.swift */,
+				30E1A3392F486735007A7B80 /* NotepadTextView.swift */,
+				30E1A33A2F486735007A7B80 /* SimpleNotepadApp.swift */,
 				30E1A3092F4866FC007A7B80 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,9 +109,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				30E1A30A2F4866FC007A7B80 /* SimpleNotepad */,
-			);
 			name = SimpleNotepad;
 			packageProductDependencies = (
 			);
@@ -130,9 +129,6 @@
 			dependencies = (
 				30E1A31B2F4866FE007A7B80 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				30E1A31C2F4866FE007A7B80 /* SimpleNotepadTests */,
-			);
 			name = SimpleNotepadTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +148,6 @@
 			);
 			dependencies = (
 				30E1A3252F4866FE007A7B80 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				30E1A3262F4866FE007A7B80 /* SimpleNotepadUITests */,
 			);
 			name = SimpleNotepadUITests;
 			packageProductDependencies = (
@@ -212,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309999922F48741000DF64E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3099998C2F48705800DF64E0 /* ContentView.swift in Sources */,
+				3099998D2F48705800DF64E0 /* DocumentManager.swift in Sources */,
+				3099998E2F48705800DF64E0 /* FindReplaceBar.swift in Sources */,
+				3099998F2F48705800DF64E0 /* NotepadTextView.swift in Sources */,
+				309999902F48705800DF64E0 /* SimpleNotepadApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,11 +391,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = SimpleNotepad/SimpleNotepad.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleNotepad/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6BAYUDFVP9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -405,6 +407,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = www.arpo.cc.SimpleNotepad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -417,11 +420,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = SimpleNotepad/SimpleNotepad.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleNotepad/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6BAYUDFVP9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -430,6 +436,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = www.arpo.cc.SimpleNotepad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
